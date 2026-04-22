@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //check how many collects there are
-num_collects = instance_number(obj_collect)+instance_number(obj_collect_bad);
+num_collects = instance_number(obj_collect)+instance_number(obj_note_red);
 frames_since_collect += 1;
 
 x = random_range(50, room_width-50);

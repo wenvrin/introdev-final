@@ -17,7 +17,7 @@ if y_vel < 0 {
 		obj_player_1.canmove = false;
 		//if (obj_player_2.y > -20) 
 	}
-	currenty_won = y;
+	//currenty_won = y;
 	targety_won = 130; //139
 	var tx = room_width / 2;
 	var ty = -50;

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-_prev_x = x;
+prev_x = x;
 
 if (won) {
 	instance_destroy(obj_platform);

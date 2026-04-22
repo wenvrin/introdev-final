@@ -1,11 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 image_index = 0;
 image_speed = 0;
 
-ystart = 3026; // starts below screen
-ybounce = 2639; // where it goes up to on first launch
+ystart = 3026;
+ybounce = 2639;
 
 left_key = ord("A");
 right_key = ord("D");
@@ -23,10 +20,7 @@ pink = $ffaa5eF3;
 red = #BF1c1c;
 note_color = pink;
 
-//create the particle system
-//think of the particle system as a container for the particles
 parts = part_system_create();
-//set the depth (layer) of the particles
 part_system_depth(parts, 30);
 
 //particle types are "played" by the particle system that calls them
@@ -61,7 +55,7 @@ shake_time = 8;
 shake_screen = 10;
 shake_screen_big = 20;
 //how long we'll flash black/white
-//bg_color = 500;
+
 
 //references to the background layer and it's background image/colr
 layer_id = layer_get_id("Background");
@@ -82,12 +76,11 @@ p1 = 0;
 p2 = 0;
 
 targety_won = y;
-currenty_won = y;
+//currenty_won = y;
 winner = noone;
 
-_prev_x = x;
+prev_x = x;
 
-//INCORRECT SOUNDS
 jump_snd = [snd_jump1, snd_jump2, snd_jump3, snd_jump4, snd_jump5, snd_jump6, snd_jump7, snd_jump8];
 jump_snd2 = [impactWood_light_002, impactWood_light_003, impactWood_light_004];
 note_snd = [snd_collect1, snd_collect2, snd_collect3, snd_collect4, snd_collect5, snd_collect6, snd_collect7, snd_collect8];
