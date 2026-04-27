@@ -1,5 +1,0 @@
-/// @description Insert description here
-// You can write your code in this editor
-depth = 50;
-breaking = spr_platform_break;
-

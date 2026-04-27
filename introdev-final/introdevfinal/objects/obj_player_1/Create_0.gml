@@ -1,9 +1,0 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
-
-// Inherit the parent event
-event_inherited();
-
-player = obj_player_1;
