@@ -17,7 +17,7 @@ if (dead) {
 	canmove = false;
 } else if !(dead) && !(won) {
 	if !(knockdown) canmove = true;
-	if !(flyingUp) bounce_vel = -18;
+	if !(flyingUp) bounce_vel = -20;
 	
 	////////////////////////////////////// PLAYER MOVEMENT ///////////////////////////////////
 	
