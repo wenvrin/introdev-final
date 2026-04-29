@@ -1,5 +1,7 @@
 ////////////////////////////////////// SUBTRACT ///////////////////////////////////
 if (bouncing) {
+	squish_timer += squish_speed;
+	
 	note_color = red;
 	part_type_colour1(star, note_color);
 	obj_gui.subtractfive = true;
@@ -10,7 +12,7 @@ if (bouncing) {
 	//start the screen shake alarm
 	alarm[0] = shake_time;
 	
-	part_particles_create(parts, other.x, other.y, star, 100);
+	part_particles_create(parts, other.x, other.y, star, 500);
 	
 	alarm[3] = 30;
 

@@ -73,8 +73,8 @@ squish_timer = 0;
 squish_speed = 0.1;
 
 //references to the two curves in anm_stretch
-y_curve = animcurve_get_channel(anm_stretch, "y_scale");
-x_curve = animcurve_get_channel(anm_stretch, "x_scale");
+//y_curve = animcurve_get_channel(anm_stretch, "y_scale");
+//x_curve = animcurve_get_channel(anm_stretch, "x_scale");
 
 //alarm[1] = 250;
 
@@ -84,3 +84,4 @@ prev_x = x;
 playing = false;
 
 jump_snd = [impactWood_light_002, impactWood_light_003, impactWood_light_004];
+note_snd = [snd_jump1, snd_jump2, snd_jump3, snd_jump4, snd_jump5, snd_jump6, snd_jump7, snd_jump8];

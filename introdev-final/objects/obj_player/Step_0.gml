@@ -11,7 +11,7 @@ if (won) {
 	//start the screen shake alarm
 	alarm[0] = shake_time;
 	//start the animation timer
-	squish_timer += squish_speed;
+	//squish_timer += squish_speed;
 	obj_gui.timer = 100; 
 }
 
@@ -116,7 +116,7 @@ if (dead) {
 					//start the screen shake alarm
 					alarm[0] = shake_time;
 					//start the animation timer
-					squish_timer += squish_speed;
+					//squish_timer += squish_speed;
 						
 					instance_create_layer(collidewith.x, collidewith.y, "Instances", obj_platform_breaking);
 					instance_destroy(collidewith);
@@ -171,7 +171,8 @@ if (dead) {
 	//if(squish_timer != 0) {
 	//	//increase the counter
 	//	squish_timer += squish_speed;
-
+	//	image_yscale = animcurve_channel_evaluate(y_curve, squish_timer);
+	//	image_xscale = animcurve_channel_evaluate(x_curve, squish_timer);
 	//	//if we reached the end of the animatino
 	//	if(squish_timer >= 1) {
 	//		//reset our scales

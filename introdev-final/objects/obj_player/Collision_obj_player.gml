@@ -10,7 +10,7 @@ if (bouncing) {
 		//start the screen shake alarm
 		alarm[0] = 5;
 		//start the animation timer
-		squish_timer += squish_speed;
+		//squish_timer += squish_speed;
 	} else {
 		audio_play_sound(impactGlass_heavy_002, 99, 0);
 		if y_vel >= 0 image_index = 3;
@@ -24,6 +24,6 @@ if (bouncing) {
 		//start the screen shake alarm
 		alarm[0] = 5;
 		//start the animation timer
-		squish_timer += squish_speed;
+		//squish_timer += squish_speed;
 	}
 }

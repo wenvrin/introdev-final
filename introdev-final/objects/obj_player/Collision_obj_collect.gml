@@ -5,8 +5,8 @@ if (bouncing) {
 	part_type_colour1(star, note_color);
 	obj_gui.addingfive = true;
 	
-	var _random_index = irandom(array_length(jump_snd) - 1);
-	var _playsound = jump_snd[_random_index];
+	var _random_index = irandom(array_length(note_snd) - 1);
+	var _playsound = note_snd[_random_index];
 	audio_play_sound(_playsound, 100, 0);
 	part_particles_create(parts, other.x, other.y, star, 100);
 	
