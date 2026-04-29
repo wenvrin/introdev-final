@@ -122,6 +122,7 @@
     {"id":{"name":"spaceTrash5","path":"sounds/spaceTrash5/spaceTrash5.yy",},"order":50,},
     {"id":{"name":"laser1","path":"sounds/laser1/laser1.yy",},"order":2,},
     {"id":{"name":"snd_collect1","path":"sounds/snd_collect1/snd_collect1.yy",},"order":0,},
+    {"id":{"name":"fnt_text4","path":"fonts/fnt_text4/fnt_text4.yy",},"order":5,},
     {"id":{"name":"pepSound5","path":"sounds/pepSound5/pepSound5.yy",},"order":18,},
     {"id":{"name":"impactPlate_heavy_001","path":"sounds/impactPlate_heavy_001/impactPlate_heavy_001.yy",},"order":76,},
     {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},"order":4,},

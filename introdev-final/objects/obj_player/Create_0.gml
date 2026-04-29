@@ -76,10 +76,11 @@ squish_speed = 0.1;
 y_curve = animcurve_get_channel(anm_stretch, "y_scale");
 x_curve = animcurve_get_channel(anm_stretch, "x_scale");
 
-alarm[1] = 250;
+//alarm[1] = 250;
 
 winner = noone;
 
 prev_x = x;
+playing = false;
 
 jump_snd = [impactWood_light_002, impactWood_light_003, impactWood_light_004];

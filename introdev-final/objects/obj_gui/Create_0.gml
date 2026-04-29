@@ -3,6 +3,8 @@ timer_start = false;
 bonus = 0;
 penalty = 0;
 
+tut = true;
+
 addingfive = false;
 subtractfive = false;
 

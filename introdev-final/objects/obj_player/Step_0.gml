@@ -1,5 +1,10 @@
 prev_x = x;
 
+if !(obj_gui.tut) && !(playing) {
+	alarm[1] = 1;
+	playing = true;
+}
+
 if (won) {
 	instance_destroy(obj_platform);
 	part_particles_create(parts, x, y, fly, 10);
