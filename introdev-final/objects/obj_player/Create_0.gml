@@ -64,8 +64,8 @@ shake_screen_big = 20;
 //bg_color = 500;
 
 //references to the background layer and it's background image/colr
-layer_id = layer_get_id("Background");
-back_id = layer_background_get_id(layer_id);
+//layer_id = layer_get_id("Background");
+//back_id = layer_background_get_id(layer_id);
 
 //counter for how long we're going to animation squash/stretch
 squish_timer = 0;

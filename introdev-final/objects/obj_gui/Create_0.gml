@@ -4,6 +4,7 @@ bonus = 0;
 penalty = 0;
 
 tut = true;
+time = 0;
 
 addingfive = false;
 subtractfive = false;
@@ -13,4 +14,3 @@ subtractfive = false;
 
 red = #ff2638;
 green = #26ff9d;
-
