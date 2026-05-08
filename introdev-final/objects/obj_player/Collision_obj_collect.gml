@@ -12,10 +12,10 @@ if (bouncing) {
 	
 	alarm[3] = 30;
 
-	show_debug_message("addingfive:"+string(obj_gui.addingfive));
+	//show_debug_message("addingfive:"+string(obj_gui.addingfive));
 	
 	obj_gui.bonus = other.sec;
-	obj_gui.timer+=obj_gui.bonus;
+	obj_gui.gtimer+=obj_gui.bonus;
 	instance_destroy(other);
 }
 

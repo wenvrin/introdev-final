@@ -85,3 +85,4 @@ playing = false;
 
 jump_snd = [impactWood_light_002, impactWood_light_003, impactWood_light_004];
 note_snd = [snd_jump1, snd_jump2, snd_jump3, snd_jump4, snd_jump5, snd_jump6, snd_jump7, snd_jump8];
+note_snd2 = [note1, note2, note3, note4, note5];

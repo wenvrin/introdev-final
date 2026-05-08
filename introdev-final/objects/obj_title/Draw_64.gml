@@ -6,7 +6,8 @@
 ttime++;
 draw_set_color(#D08159);
 draw_set_font(fnt_text4)
-if (ttime < 45) draw_text_ext(display_get_gui_width()/3+60,y+175,"Press [SPACE] to start", -1,1000);
+draw_set_halign(fa_center);
+if (ttime < 45) draw_text_ext(display_get_gui_width()/2,y+175,"Press [SPACE] to start", -1,1000);
 if (ttime >= 60) ttime = 0;
 //draw_set_halign(fa_right);
 //draw_text_ext(x+600,y+150,"WASD for P1 / Arrow Keys for P2",-1,1000)

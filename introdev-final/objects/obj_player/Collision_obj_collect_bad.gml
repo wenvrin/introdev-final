@@ -16,11 +16,11 @@ if (bouncing) {
 	
 	alarm[3] = 30;
 
-	show_debug_message("subtractfive:"+string(obj_gui.subtractfive));
+	//show_debug_message("subtractfive:"+string(obj_gui.subtractfive));
 	
 
 	obj_gui.penalty = other.sec;
-	obj_gui.timer+=obj_gui.penalty;
+	obj_gui.gtimer+=obj_gui.penalty;
 	
 	instance_destroy(other);
 }

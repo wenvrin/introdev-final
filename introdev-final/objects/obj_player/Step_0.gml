@@ -12,7 +12,7 @@ if (won) {
 	alarm[0] = shake_time;
 	//start the animation timer
 	//squish_timer += squish_speed;
-	obj_gui.timer = 100; 
+	obj_gui.gtimer = 100; 
 }
 
 var collidewith = noone;
@@ -27,7 +27,7 @@ if (dead) {
 	////////////////////////////////////// PLAYER MOVEMENT ///////////////////////////////////
 	
 	//slow the player down on the x-axis
-	x_vel *= 0.9
+	x_vel *= 0.9;
 
 	//adding gravity to the y velocity
 	y_vel += grav;
@@ -132,6 +132,7 @@ if (dead) {
 			y += dir;
 			//remove that pixel from the pixels we're tracking this frame
 			to_move_y -= dir;
+			
 		} else {
 			//if we did collide w/ something
 			//move one pixel in the direction we've moving
@@ -182,7 +183,7 @@ if (dead) {
 	//		squish_timer = 0;
 	//	}
 	//}
-	
+
 }
 
 if !(flyingUp) && !(dead) && !(knockdown) && !(won) {
